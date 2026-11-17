@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Secrets — never commit (backend/.env.example is the template)
+.env
+.env.*
+!.env.example
+
+# Generated / runtime
+frontend/dist/
+backend/uploads/
+backend/logs/
+*.log
+
+# Local copies of older designs
+backups/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Images are not kept in the repository (patient photos, clinic photos, logos)
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.svg
+*.ico
+*.avif
+*.bmp

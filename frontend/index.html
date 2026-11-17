@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/logo-mark.png" />
+    <title>Srinivasa Dental Care | Dental Clinic in BTM Layout, Bangalore</title>
+    <meta name="description" content="Srinivasa Dental Care, BTM 2nd Stage, Bengaluru — established in 1999. 25+ years of dental care, 1,00,000+ patients treated, modern technology and personalised treatment." />
+    <meta name="theme-color" content="#159C95" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Srinivasa Dental Care" />
+    <meta property="og:title" content="Srinivasa Dental Care | Dental Clinic in BTM Layout, Bangalore" />
+    <meta property="og:description" content="25+ Years of Transforming Smiles. Restoring Confidence. Established in 1999, BTM 2nd Stage, Bengaluru." />
+    <meta property="og:image" content="/logo-banner.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=Poppins:wght@400;600&family=Heebo:wght@400;500&family=B612+Mono:wght@700&display=swap" rel="stylesheet" />
+    <script>
+      // Home page only: start loading the hero photo together with the page, not after the app has started.
+      if (location.pathname === '/') {
+        var heroPreload = document.createElement('link');
+        heroPreload.rel = 'preload';
+        heroPreload.as = 'image';
+        heroPreload.href = '/photos/clinic/dr-vishwas-desk.jpg';
+        heroPreload.setAttribute('fetchpriority', 'high');
+        document.head.appendChild(heroPreload);
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Dentist",
+        "name": "Srinivasa Dental Care",
+        "image": "/logo-banner.png",
+        "foundingDate": "1999",
+        "telephone": ["+91-9611146955", "+91-9845195605", "+91-80-41201345"],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "No. 383, 7th Cross, 8th Main, Mico Layout, BTM 2nd Stage",
+          "addressLocality": "Bengaluru",
+          "addressRegion": "Karnataka",
+          "postalCode": "560076",
+          "addressCountry": "IN"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
